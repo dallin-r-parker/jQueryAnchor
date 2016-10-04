@@ -11,5 +11,7 @@ $(document).ready(function () {
 
 });
 
+angular.module('myApp').controller('//ConrollerName', function($scope, //inject Service) {
 
 
+});
