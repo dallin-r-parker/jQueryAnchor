@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $(function(){
-        $('#anchor1').click(function(){
+        $('#anchor-one').click(function(){
             $('html, body').animate({
-                scrollTop: $('#part-two').offset().top},
+                scrollTop: $('#step1-color-container').offset().top},
                 2000
             );
         return false;
@@ -20,6 +20,3 @@ $(document).ready(function() {
     });
 
 });
-
-
-
